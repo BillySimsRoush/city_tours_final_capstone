@@ -49,7 +49,6 @@ export default {
             deleteItin:{
                 itineraryID:''
             },
-            proxyurl: "https://cors-anywhere.herokuapp.com/",
 
         }
     },

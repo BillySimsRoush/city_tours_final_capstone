@@ -26,7 +26,9 @@ export default {
   
                 ], 
           proxyurl: "https://cors-anywhere.herokuapp.com/",
-          url: 'https://maps.googleapis.com/maps/api/js?key=AIzaSyAso42k5sym5xcujpYvGz9RgPcmpo8HUH8&libraries=places'
+          url: 'https://maps.googleapis.com/maps/api/js?libraries=places',
+          key:'ADD_KEY_HERE'
+
       }
   },
   async mounted() {

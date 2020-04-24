@@ -91,9 +91,10 @@ export default {
       proxyurl: "https://cors-anywhere.herokuapp.com/",
       url: "https://maps.googleapis.com/maps/api/place/details/json?place_id=",
       urlEnd:
-        "&fields=name,rating,formatted_phone_number,reviews,website,formatted_address,opening_hours,price_level&key=AIzaSyAso42k5sym5xcujpYvGz9RgPcmpo8HUH8",
+        "&fields=name,rating,formatted_phone_number,reviews,website,formatted_address,opening_hours,price_level",
       photoUrl:
-        "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&key=AIzaSyAso42k5sym5xcujpYvGz9RgPcmpo8HUH8&photoreference=",
+        "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=",
+      KEY:'ADD_KEY_HERE',
       showForm: false,
       date: "",
       itinerary: [],

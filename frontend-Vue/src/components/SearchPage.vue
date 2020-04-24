@@ -65,7 +65,7 @@ export default {
       url:
         "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=41.8781,-87.6298&radius=21000&types=",
       type: localStorage.getItem("type"),
-      urlEnd: "&key=AIzaSyAso42k5sym5xcujpYvGz9RgPcmpo8HUH8",
+      urlEnd: 'ADD_KEY_HERE',
       photoUrl:
         "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&key=AIzaSyAso42k5sym5xcujpYvGz9RgPcmpo8HUH8&photoreference="
     };
